@@ -2,7 +2,7 @@
 
 iniciando estudos em ruby apos rubyconf 2016
 
-- quase tudo que é declarado em ruby pode ser tratado como um objeto.
+- quase tudo que é declarado em ruby pode ser tratado como um objeto, variáveis por exemplo não são tratadas como objetos, e sim como uma espécie "referência ao objeto".
 - podemos utilizar o IRB para testar códigos simples em ruby, basta difitar `irb` no terminal, e o CLI é iniciado.
 
 ## variáveis
@@ -29,10 +29,10 @@ $var_global = "primeira variavel global com ruby"
 
 ## métodos
 
-definindo métodos
-
 - a palavra def define que vamos declarar um método.
 - um método retorna sempre o valor da ultima expressão.
+
+definindo métodos
 
 métodos em linha
 
@@ -84,8 +84,8 @@ note que no exemplo acima é printado o valor da variável dentro e fora do esco
 
 condição if-else
 
-operadores de comparação: > | < | >= | <= | == | !=
-operadores lógicos: ! (not) | && (and) | || (or)
+- operadores de comparação: > | < | >= | <= | == | !=
+- operadores lógicos: ! (not) | && (and) | || (or)
 
 ```
 # declaramos a variável
@@ -104,3 +104,16 @@ end
 puts message
 ```
 
+## classes
+
+declarando classes com ruby
+
+- na class utilizamos camelCase, e o nome sempre inicia com letra maiúscula
+- iniciamos uma class com a palavra `class` seguida do nome da classe e terminamos com a palavra `end`
+
+```
+class PrimeiraClassRuby
+end
+```
+
+## Objetos
