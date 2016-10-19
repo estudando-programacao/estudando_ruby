@@ -30,11 +30,14 @@ criando modelos - g de generator, scaffold porque faz todo o trabalho nos diret√
 rails g scaffold link title:string utl:string
 ```
 
-mirgrate db
+migrate db - sempre que novos modelos forem criados, o migrate deve ser executado.
 
 ```
 rake db:migrate
 ```
+
+
+
 
 
 
