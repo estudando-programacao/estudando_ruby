@@ -36,6 +36,14 @@ migrate db - sempre que novos modelos forem criados, o migrate deve ser executad
 rake db:migrate
 ```
 
+console rails - console para testes rápidos
+
+```
+rails c
+
+# comando no console para verificar usuários cadastrados com o devise
+User.count
+```
 
 
 
